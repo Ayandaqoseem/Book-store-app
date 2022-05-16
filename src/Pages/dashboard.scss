@@ -1,0 +1,17 @@
+.dashboard {
+    display: flex;
+    
+
+
+    .dashboardContainer {
+        background-color: rgba(213, 228, 233, 0.705);
+        // border-top: 2px solid rgb(15, 3, 59);
+        // border-right: 2px solid rgb(15, 3, 59);
+        // border-bottom: 2px solid rgb(15, 3, 59);
+        // border-top-right-radius: 5px;
+        // border-bottom-right-radius: 5px;
+        // margin-top: 20px;
+        margin-right: 0;
+        flex: 6;
+    }
+}

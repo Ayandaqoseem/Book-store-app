@@ -1,0 +1,57 @@
+.navbar {
+    // background-color: rgb(255, 196, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3em;
+    height: 80px;
+    padding: 1em 0;
+
+    &-header {
+        display: flex;
+        align-items: center;
+        
+        h1 {
+            color: rgb(196, 187, 107);
+            font-size: 25px;
+        }
+        // img {
+        //     background-color: coral;
+        //     border: 1px solid coral;
+        //     border-radius: 5px;
+        //     align-items: center;
+        //     justify-items: center;
+        //     width: 150px;
+        // }
+    }
+    .ul-light {
+        display: flex;
+        margin-left: 20px;
+
+        li {
+            list-style: none;
+            margin-left: 20px;
+            color: #111111;
+            font-size: 1.1em;
+        }
+    }
+
+    &-signins {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+
+        button {
+            background-color: greenyellow;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid greenyellow;
+            margin-left: 20px;
+    
+        }
+    }
+
+  
+}
+

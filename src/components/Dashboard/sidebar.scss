@@ -1,0 +1,99 @@
+.sidebar {
+    background-color: rgb(15, 3, 59);
+    // border-top: 2px solid rgb(15, 3, 59);
+    border-left: 2px solid rgb(15, 3, 59);
+    // border-bottom: 2px solid rgb(15, 3, 59);
+    // border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 0;
+    // margin-top: 20px;
+    min-height: 100vh;
+    flex: 1;
+
+    .top {
+        // background-color: blue;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(196, 187, 107);
+        font-size: 15px;
+
+      
+
+    }
+    .userDetails {
+        h3 {
+            color: white;
+            margin-top: 10px;
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 10px;
+    
+        }
+        
+
+    }
+    .horizontal {
+        width: 90%;
+        margin-left: 7px;
+    }
+
+    .center {
+        padding-left: 30px;
+
+        
+        ul {
+            // list-style: none;
+            color: white;
+            padding: 0;
+            margin: 0;
+
+            .title {
+                font-size: 15px;
+                font-weight: bold;
+                margin-top: 15px;
+                margin-bottom: 5px;
+            }
+            a {
+                text-decoration-line: none;
+            }
+           
+
+            li {
+                display: flex;
+                align-items: center;
+                padding: 5px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #7d8ccf;
+                }
+               
+
+                .icon {
+                    font-size: 18px;
+                    color: lightblue;
+                }
+                span {
+                    margin-left: 10px;
+                    font-size: 13px;
+                    color:grey;
+                    &:hover {
+                        color: white;
+                    }
+                }
+            }
+            button {
+                border: none;
+                background-color: transparent;
+                // align-items: left;
+                // justify-content: left;
+                padding-left: 0;
+                width: 50%;
+            }
+
+        }
+    }
+    
+}
